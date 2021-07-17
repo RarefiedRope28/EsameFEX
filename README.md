@@ -1,6 +1,13 @@
 # EsameFEX
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+Creazione personas: link
+
+Creazione Customer Journey Map: link
+
+Creazione State Transition Storyboard: link
+
+Swagger documentation: link
+
 
 ## Development Setup
 
