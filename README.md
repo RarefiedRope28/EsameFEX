@@ -1,12 +1,16 @@
 # EsameFEX
 
-Creazione personas: link
 
-Creazione Customer Journey Map: link
+Creazione personas: https://www.figma.com/file/HlgpEFMON3xhdQxnSCGjP6/Personas-Esame?node-id=0%3A1
 
-Creazione State Transition Storyboard: link
 
-Swagger documentation: link
+Creazione Customer Journey Map: https://miro.com/app/board/o9J_l6WGMKc=/
+
+
+Creazione State Transition Storyboard: https://miro.com/app/board/o9J_l6WGMVg=/
+
+
+Swagger documentation: https://app.swaggerhub.com/apis/ITS515/Swagger_Esame/1.0.0
 
 
 ## Development Setup
