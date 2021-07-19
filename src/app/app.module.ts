@@ -12,6 +12,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AttractionsListComponent } from './attractions-list/attractions-list.component';
 import { DetailsAttractionComponent } from './details-attraction/details-attraction.component';
+import { GiveFeedbackComponent } from './give-feedback/give-feedback.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DetailsAttractionComponent } from './details-attraction/details-attract
     HomePageComponent,
     LandingPageComponent,
     AttractionsListComponent,
-    DetailsAttractionComponent
+    DetailsAttractionComponent,
+    GiveFeedbackComponent
   ],
   imports: [
     BrowserModule,

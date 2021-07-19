@@ -1,1 +1,54 @@
-<p>details-attraction works!</p>
+<app-header></app-header>
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="{{detailsAttraction.image}}" class="d-block mx-lg-auto img-fluid"
+                alt="Attrazione {{detailsAttraction.name}}" width="700" height="500" loading="lazy">
+        </div>
+
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">{{detailsAttraction.name}}</h1>
+            <h3 class="fw-bold lh-1 mb-3">Località: {{detailsAttraction.locality}}</h3>
+            <p class="lead">{{detailsAttraction.description}}</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Contapersone giornaliero</h1>
+            <span class="fw-bold lh-1 mb-3">Numero persone entrate: </span><span class="lead">1000</span><br>
+            <span class="fw-bold lh-1 mb-3">Numero persone uscite: </span><span class="lead">1000</span><br>
+            <span class="fw-bold lh-1 mb-3">Numero persone presenti: </span><span class="lead">0</span><br>
+            <span class="fw-bold lh-1 mb-3">Permanenza media delle persone: </span><span class="lead">60 minuti</span>
+
+        </div>
+
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="{{detailsAttraction.image}}" class="d-block mx-lg-auto img-fluid"
+                alt="Attrazione {{detailsAttraction.name}}" width="700" height="500" loading="lazy">
+        </div>
+    </div>
+</div>
+
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="{{detailsAttraction.image}}" class="d-block mx-lg-auto img-fluid"
+                alt="Attrazione {{detailsAttraction.name}}" width="700" height="500" loading="lazy">
+        </div>
+
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Scegli un pass per la tua esperienza</h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Pass provinciale giornaliero</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Pass nazionale settimanale</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

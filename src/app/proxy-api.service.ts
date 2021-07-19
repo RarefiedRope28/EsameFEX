@@ -19,4 +19,5 @@ export class ProxyApiService {
     return this.http.get<Attraction>(this.apiUrl + 'attractions/' + id);
   }
   
+  giveFeedBack = () => {} // not yet implemented
 }

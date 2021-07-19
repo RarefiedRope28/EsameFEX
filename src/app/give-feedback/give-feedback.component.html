@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Raccontaci come hai vissuto l'esperienza.</h1>
+            <p class="col-lg-10 fs-4">Utilizza il form per farcelo sapere.</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingName" placeholder="Nome">
+                    <label for="floatingName">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingSurname" placeholder="Cognome">
+                    <label for="floatingSurname">Cognome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingAttractionName" placeholder="Attrazione">
+                    <label for="floatingAttractionName">Nome attrazione</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingLocality" placeholder="Località">
+                    <label for="floatingLocality">Località</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <label for="textareaDescription">Example textarea</label>
+                    <textarea class="form-control" id="textareaDescription"></textarea>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit" (click)="navigate()">Invia</button>
+                <hr class="my-4">
+                <small class="text-muted">Cliccando invia ci invierai il tuo feedback.</small>
+            </form>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
