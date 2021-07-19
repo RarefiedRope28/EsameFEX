@@ -9,6 +9,9 @@ import { NotFoundPageComponent } from './not-found-page/not-found-page.component
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { HomePageComponent } from './home-page/home-page.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AttractionsListComponent } from './attractions-list/attractions-list.component';
+import { DetailsAttractionComponent } from './details-attraction/details-attraction.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { HomePageComponent } from './home-page/home-page.component';
     HeaderComponent,
     FooterComponent,
     NotFoundPageComponent,
-    HomePageComponent
+    HomePageComponent,
+    LandingPageComponent,
+    AttractionsListComponent,
+    DetailsAttractionComponent
   ],
   imports: [
     BrowserModule,

@@ -44,10 +44,16 @@ npm install
 
 ### Avvio del progetto
 
+Avviare il server:
+
+```
+json-server --watch db.json
+```
+
 Avviare l'applicazione:
 
 ```
 ng serve
 ```
 
-Aprire un browser qualsiasi e digitare: localhost:4200
+Aprire un browser qualsiasi e digitare: localhost:4200/landing-page

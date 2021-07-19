@@ -1,0 +1,81 @@
+{
+    "attractions": [
+        {
+            "id": 1,
+            "name": "Colosseo",
+            "locality": "Roma",
+            "description": "Il Colosseo, originariamente conosciuto come Amphitheatrum Flavium (in italiano: Anfiteatro Flavio) o semplicemente come Amphitheatrum, situato nel centro della città di Roma, è il più grande anfiteatro del mondo. In grado di contenere un numero di spettatori stimato tra 50 000 e 87 000 unità, è il più importante anfiteatro romano, nonché il più imponente monumento dell'antica Roma che sia giunto fino a noi.",
+            "iterests": [
+                {
+                    "id": 1,
+                    "name": "Storico"
+                },
+                {
+                    "id": 2,
+                    "name": "Paesaggistico"
+                }
+            ],
+            "image": "https://lh3.googleusercontent.com/proxy/LXU0V7vbdtLy6fspPBLhPwqZTvIRR2u2WO_Z7B_3Jgt5PP-mRtVYhc3kbMVJ2AjsDlDOj0pnPUUNVADoPkbEN2FLyGhZFpSAu8rtIya4W4Qcfg"
+        },
+        {
+            "id": 2,
+            "name": "Piazza San Marco",
+            "locality": "Venezia",
+            "description": "Piazza San Marco, situata a Venezia in Veneto, è una delle più importanti piazze monumentali italiane, rinomata in tutto il mondo per la sua bellezza e integrità architettonica. È l'unico spazio urbano di Venezia che assume propriamente il nome di piazza, in quanto tutti gli altri spazi in forma di piazza sono propriamente definiti campi. Il suo corpo principale ha forma trapezoidale ed è lunga 170 metri: su di esso si innestano altre aree. È anche nota come \"la Piazza\" o \"il salotto d'Europa\".",
+            "iterests": [
+                {
+                    "id": 1,
+                    "name": "Storico"
+                },
+                {
+                    "id": 2,
+                    "name": "Paesaggistico"
+                }
+            ],
+            "image": "https://visitareveneziain3giorni.com/wp-content/uploads/2019/06/piazza-san-marco-9ATUGBK-e1560349441567.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Galleria degli Uffizi",
+            "locality": "Firenze",
+            "description": "La Galleria degli Uffizi è un museo statale di Firenze, che fa parte del complesso museale denominato Gallerie degli Uffizi e comprendente, oltre alla suddetta galleria, il Corridoio vasariano, le collezioni di Palazzo Pitti e il Giardino dei Boboli, che insieme costituiscono per quantità e qualità delle opere raccolte uno dei più importanti musei del mondo.",
+            "iterests": [
+                {
+                    "id": 1,
+                    "name": "Artistico"
+                },
+                {
+                    "id": 2,
+                    "name": "Storico"
+                }
+            ],
+            "image": "https://wips.plug.it/cips/initalia.virgilio.it/cms/2020/02/uffizi.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Cinque Terre",
+            "locality": "Varie",
+            "description": "Le Cinque Terre (Çinque Tære in ligure) sono un frastagliato tratto di costa della Riviera ligure di levante (Riviera spezzina) situato nel territorio della provincia di La Spezia tra Punta Mesco e Punta di Montenero, nel quale si trovano cinque borghi o, come si diceva anticamente, terre, qui elencati da ovest verso est: Monterosso al Mare, Vernazza, Corniglia, Manarola, Riomaggiore.",
+            "iterests": [
+                {
+                    "id": 1,
+                    "name": "Paesaggistico"
+                }
+            ],
+            "image": "https://www.thetrainline.com/cmsmedia/cms/10097/cinque-terre-express_1x.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Costiera Amalfitana",
+            "locality": "Varie",
+            "description": "La Costiera amalfitana è il tratto di costa campana del Mar Tirreno meridionale della provincia di Salerno, situato a sud della penisola sorrentina e a nord della costiera cilentana, che si affaccia sul golfo di Salerno, delimitato a ovest da Positano e ad est da Vietri sul Mare, famoso in tutto il mondo per la sua bellezza naturalistica, nonché sede di importanti insediamenti turistici. Dichiarato patrimonio dell'umanità dall'UNESCO nel 1997, prende il nome dalla città di Amalfi, nucleo centrale della Costiera non solo geograficamente, ma anche storicamente.",
+            "iterests": [
+                {
+                    "id": 1,
+                    "name": "Paesaggistico"
+                }
+            ],
+            "image": "https://www.vitaincamper.it/wp-content/uploads/2017/07/COSTIERA-AMALFITANA-IN-BICI_1in-evidenza.jpg"
+        }
+    ]
+}
