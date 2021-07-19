@@ -17,29 +17,37 @@ Swagger documentation: https://app.swaggerhub.com/apis/ITS515/Swagger_Esame/1.0.
 
 ### Prerequisites
 
-- Install [Node.js] which includes [Node Package Manager][npm]
+- Installa [Node.js](https://nodejs.org/en/)
 
-### Setting Up a Project
 
-Install the Angular CLI globally:
+
+### Installare la CLI di Angular globalmente:
+
+Aprire la powershell del computer e scrivere:
 
 ```
 npm install -g @angular/cli
 ```
 
-Install the packages:
+### Setup del progetto
+
+Scaricare il repository da GitHub
+
+Spostarsi nella cartella del progetto: 
+cd [PROJECT NAME]
+
+Installare i pacchetti:
 
 ```
-cd [PROJECT NAME]
 npm install
 ```
 
-Run the application:
+### Avvio del progetto
+
+Avviare l'applicazione:
 
 ```
 ng serve
 ```
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Aprire un browser qualsiasi e digitare: localhost:4200
